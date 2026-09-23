@@ -1,0 +1,37 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Runtime and large research artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/raw/
+data/derived/
+experiments/
+work/
+external/
+models/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Unreviewed documents and temporary office files
+*.pdf
+*.pptx
+*.docx
+~$*
+.DS_Store
+Thumbs.db
+
+# Editor-local state
+.vscode/
+.idea/
